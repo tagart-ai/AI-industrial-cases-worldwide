@@ -20,9 +20,9 @@ window.i18n = (function() {
       // Добавляем параметр версии для предотвращения кэширования
       const cacheVersion = new Date().getTime();
       
-      // Загружаем переводы для всех языков
+      // Загружаем переводы для всех языков (файлы в корне репозитория)
       const promises = AVAILABLE_LANGUAGES.map(lang => 
-        fetch(`/locales/${lang}.json?v=${cacheVersion}`)
+        fetch(`${lang}.json?v=${cacheVersion}`)
           .then(response => {
             if (!response.ok) {
               throw new Error(`Failed to load ${lang} translations`);
