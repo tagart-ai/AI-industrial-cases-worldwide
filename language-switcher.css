@@ -1,0 +1,52 @@
+/* language-switcher.css */
+/* Стили для переключателя языков */
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.language-title {
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.language-button {
+  background: transparent;
+  border: 1px solid var(--border-main, #333);
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.language-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.language-button.active {
+  background-color: var(--Button-primary-black, #333);
+  color: var(--text-onblack, #fff);
+  border-color: var(--Button-primary-black, #333);
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  .language-switcher {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .language-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
+

@@ -1,0 +1,397 @@
+{
+  "header": {
+    "title": "工业人工智能",
+    "subtitle": "人工智能在B2B和B2C中的应用示例",
+    "counter": "来自5个行业的23个案例"
+  },
+  "language_selector": {
+    "title": "语言:",
+    "ru": "Русский",
+    "en": "English",
+    "zh": "中文"
+  },
+  "main_title": "人工智能在B2B和B2C领域的应用示例",
+  "description": "研究人工智能（机器学习、计算机视觉、LLM）在冶金、农业、物流、采矿和医疗保健行业的实际应用示例。",
+  "filters": {
+    "industry": {
+      "title": "按行业筛选:",
+      "all": "所有行业",
+      "metallurgy": "冶金",
+      "agriculture": "农业",
+      "logistics": "物流",
+      "mining": "采矿",
+      "healthcare": "医疗保健"
+    },
+    "ai_type": {
+      "title": "按AI类型筛选:",
+      "all": "所有类型",
+      "machine_learning": "机器学习",
+      "computer_vision": "计算机视觉",
+      "language_models": "语言模型"
+    }
+  },
+  "case_structure": {
+    "business_task": "业务任务:",
+    "solution": "解决方案:",
+    "effect": "效果:"
+  },
+  "footer": {
+    "copyright": "© 2025 工业人工智能。所有示例基于真实案例。",
+    "ai_types": "机器学习 • 计算机视觉 • 语言模型"
+  },
+  "cases": [
+    {
+      "company": {
+        "name_en": "Baowu Steel Group",
+        "name_cn": "宝武钢铁集团"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning", "language_models"],
+      "business_task": "优化生产流程并创建中国钢铁行业首个人工智能计算中心",
+      "solution": "基于原中厚板生产厂建立人工智能计算中心，并将盘古预测模型连接到热轧生产线",
+      "effects": [
+        "预测准确率提高5%",
+        "年利润增加超过1000万元",
+        "人工智能实施的经济效益每年超过1亿元",
+        "2024年启动300个人工智能场景"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Ansteel Group",
+        "name_cn": "鞍钢集团"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning"],
+      "business_task": "使用人工智能优化管理和包装流程",
+      "solution": "实施DeepSeek和Raccoon人工智能工具，为精益制造设计解决方案",
+      "effects": [
+        "数据分析时间从几天缩短到几秒",
+        "制定四项改进措施，包括优化包装流程和材料",
+        "到2025年3月，包装材料成本降低1707万元",
+        "标准化捆扎，更换钢保护板材料，更新纳米涂层防腐纸"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Shougang Group",
+        "name_cn": "首钢集团"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning", "computer_vision"],
+      "business_task": "提高高炉生产线的自动化和智能化水平",
+      "solution": "开发用于智能高炉生产、球团和烧结的专有人工智能系统",
+      "effects": [
+        "减少生产过程中的人工干预",
+        "通过自动化提高工作效率",
+        "实施一键式操作以减轻工作负担",
+        "为高炉生产创建专有人工智能系统"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Hesteel Group",
+        "name_cn": "河钢集团"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning", "computer_vision"],
+      "business_task": "从订单接收到产品交付的整个生产过程数字化",
+      "solution": "实施WeShyper Data智能运营数字平台，用于可视化关键生产过程数据",
+      "effects": [
+        "将超过52万台设备连接到平台",
+        "创建超过3000个工业应用和2700个工业模型",
+        "为9个子行业开发超过30个解决方案",
+        "服务超过5000家企业并注册超过3万名企业用户"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Taigang Group",
+        "name_cn": "太钢集团"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning", "computer_vision"],
+      "business_task": "从传统钢铁生产向智能管理转变",
+      "solution": "基于MES系统开发和实施智能炼钢人工智能助手平台",
+      "effects": [
+        "运营效率提高超过30%",
+        "质量波动系数显著降低",
+        "熔融钢成分稳定性提高",
+        "使用数字手段创建质量和安全保护的双重防线"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Shagang Group",
+        "name_cn": "沙钢集团"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning", "language_models"],
+      "business_task": "使用人工智能进行企业智能转型",
+      "solution": "在企业内部网络中本地部署DeepSeek模型并启动试验验证",
+      "effects": [
+        "为生产管理创建数字心脏",
+        "提高决策效率",
+        "优化生产流程",
+        "战略性应用人工智能技术进行数字化转型"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Nanjing Agricultural University",
+        "name_cn": "南京农业大学"
+      },
+      "industry": "agriculture",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "使用人工智能技术进行智能小麦种植",
+      "solution": "开发小麦监测机器人和小麦生长条件远程感应系统",
+      "effects": [
+        "准确评估环境条件和作物生长条件",
+        "实时产量计算",
+        "创建小麦产量分布的空间地图",
+        "改进下一个播种季节的规划"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Maoming Lychee Industry",
+        "name_cn": "茂名荔枝产业"
+      },
+      "industry": "agriculture",
+      "ai_types": ["machine_learning", "language_models"],
+      "business_task": "使用人工智能和物联网优化荔枝种植",
+      "solution": "在本地人工智能助手平台中实施DeepSeek模型，集成超过500万个数据点，并安装69套支持5G的物联网传感器",
+      "effects": [
+        "实时监测土壤湿度和空气温度",
+        "在不利天气造成损害之前预测和降低风险",
+        "为农民提供个性化管理计划",
+        "提高荔枝种植效率"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Chengdu Smart Greenhouse",
+        "name_cn": "成都智能温室"
+      },
+      "industry": "agriculture",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "使用巡逻机器人实现温室监测自动化",
+      "solution": "开发配备高清摄像头的机器人用于监测作物生长，并与DeepSeek大模型集成",
+      "effects": [
+        "害虫识别准确率提高到80%以上",
+        "实时将作物生长图像传输到云端",
+        "提高种植决策的准确性",
+        "提高农业生产效率"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Intellipig",
+        "name_cn": "智能猪"
+      },
+      "industry": "agriculture",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "使用人工智能进行个性化养猪",
+      "solution": "开发猪脸识别系统，用于识别个体动物并分析其状况",
+      "effects": [
+        "在不到一秒的时间内识别个体猪",
+        "在饲料槽中分配个性化饲料份量",
+        "分析猪的图像以检测疼痛、疾病或情绪困扰的迹象",
+        "提高养猪效率并改善动物健康"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Tencent Yuanbao",
+        "name_cn": "腾讯元宝"
+      },
+      "industry": "agriculture",
+      "ai_types": ["language_models", "computer_vision"],
+      "business_task": "在农村地区引入人工智能以支持农民",
+      "solution": "将DeepSeek-R1集成到腾讯元宝产品中，创建农业人工智能工具",
+      "effects": [
+        "解决与农业和畜牧业相关的实际问题",
+        "协助母猪产后护理",
+        "检测害虫和作物疾病",
+        "提供关于肥料和农药使用的建议"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Zhongshan Hospital",
+        "name_cn": "中山医院"
+      },
+      "industry": "healthcare",
+      "ai_types": ["machine_learning", "language_models"],
+      "business_task": "使用人工智能诊断和治疗心血管疾病",
+      "solution": "实施CardioMind人工智能系统用于心血管疾病的诊断和治疗",
+      "effects": [
+        "减轻136名心脏科医生的工作负担，每年服务82万门诊就诊",
+        "缩短诊断时间并提高准确性",
+        "根据心脏科主任的说法，该系统像领先专家一样思考",
+        "人工智能在中国医疗系统中日益重要的例子"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "JD Logistics",
+        "name_cn": "京东物流"
+      },
+      "industry": "logistics",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "仓库操作自动化和配送路线优化",
+      "solution": "实施计算机视觉系统用于包裹分拣自动化和机器学习算法用于优化配送路线",
+      "effects": [
+        "包裹分拣速度提高40%",
+        "配送时间减少30%",
+        "物流成本降低25%",
+        "配送准确率提高到99.5%"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Cainiao Network",
+        "name_cn": "菜鸟网络"
+      },
+      "industry": "logistics",
+      "ai_types": ["machine_learning", "computer_vision"],
+      "business_task": "智能物流网络优化和预测性维护",
+      "solution": "部署人工智能驱动的物流管理系统，用于路线优化和设备维护预测",
+      "effects": [
+        "物流网络效率提高35%",
+        "设备故障预测准确率达到90%",
+        "维护成本降低20%",
+        "客户满意度提高到98%"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "SF Express",
+        "name_cn": "顺丰速运"
+      },
+      "industry": "logistics",
+      "ai_types": ["computer_vision", "language_models"],
+      "business_task": "智能客服和包裹追踪系统",
+      "solution": "实施基于人工智能的客服聊天机器人和计算机视觉包裹识别系统",
+      "effects": [
+        "客服响应时间减少60%",
+        "包裹识别准确率达到99.8%",
+        "客户查询自动化处理率达到85%",
+        "运营成本降低30%"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "China Minmetals Corporation",
+        "name_cn": "中国五矿集团"
+      },
+      "industry": "mining",
+      "ai_types": ["machine_learning", "computer_vision"],
+      "business_task": "矿物勘探和开采过程优化",
+      "solution": "部署人工智能系统用于地质数据分析和自动化采矿设备控制",
+      "effects": [
+        "矿物发现率提高45%",
+        "开采效率提高30%",
+        "安全事故减少50%",
+        "运营成本降低25%"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Shandong Gold Mining",
+        "name_cn": "山东黄金"
+      },
+      "industry": "mining",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "智能矿山安全监控和生产优化",
+      "solution": "实施基于计算机视觉的安全监控系统和机器学习驱动的生产优化",
+      "effects": [
+        "安全监控覆盖率达到100%",
+        "生产效率提高40%",
+        "事故预警准确率达到95%",
+        "能源消耗降低20%"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "China Coal Energy",
+        "name_cn": "中煤能源"
+      },
+      "industry": "mining",
+      "ai_types": ["machine_learning", "language_models"],
+      "business_task": "煤炭开采智能化和环境监测",
+      "solution": "部署人工智能系统用于开采过程自动化和环境影响监测",
+      "effects": [
+        "开采自动化程度达到80%",
+        "环境监测准确率提高60%",
+        "生产安全性提高55%",
+        "环境合规性提高到99%"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Zijin Mining",
+        "name_cn": "紫金矿业"
+      },
+      "industry": "mining",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "智能选矿和资源回收优化",
+      "solution": "实施基于人工智能的选矿过程控制和废料回收系统",
+      "effects": [
+        "选矿效率提高35%",
+        "资源回收率提高50%",
+        "废料处理成本降低40%",
+        "整体盈利能力提高25%"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "POSCO",
+        "name_cn": "浦项钢铁"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning", "computer_vision"],
+      "business_task": "降低能耗并优化钢铁生产中的技术参数",
+      "solution": "实施深度学习算法分析传感器数据，优化从冶炼到轧制各个阶段的参数，让AI自动调整操作条件",
+      "effects": [
+        "能耗降低15%",
+        "提高生产能效",
+        "降低生产成本",
+        "改善环境绩效"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Hyundai Steel",
+        "name_cn": "现代钢铁"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["computer_vision"],
+      "business_task": "实时检测产品表面缺陷",
+      "solution": "配备AI模块的摄像头分析轧制板材的裂纹和变形，对以前需要目视或手动检测的缺陷进行分类",
+      "effects": [
+        "显著降低次品率",
+        "加速质量控制",
+        "减少材料损失",
+        "提高产品可靠性"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Sungwon",
+        "name_cn": "成元"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["language_models"],
+      "business_task": "支持外国工人阅读技术文档和说明",
+      "solution": "LLM平台将技术术语翻译并解释为员工的母语，帮助正确执行复杂操作",
+      "effects": [
+        "提高工作准确性",
+        "增强生产力和质量",
+        "降低错误风险",
+        "改善多国团队沟通"
+      ]
+    }
+  ]
+}
+
