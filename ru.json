@@ -2,7 +2,7 @@
   "header": {
     "title": "ИИ в промышленности",
     "subtitle": "Примеры использования искусственного интеллекта в B2B и B2C",
-    "counter": "37 кейсов из 7 отраслей"
+    "counter": "42 кейса из 8 отраслей"
   },
   "language_selector": {
     "title": "Язык:",
@@ -11,7 +11,7 @@
     "zh": "中文"
   },
   "main_title": "Примеры использования ИИ в секторах B2B и B2C",
-  "description": "Исследование реальных примеров применения искусственного интеллекта (машинного обучения, компьютерного зрения, LLM) в металлургии, сельском хозяйстве, логистике, горнодобывающей промышленности и здравоохранении.",
+  "description": "Исследование реальных примеров применения искусственного интеллекта (машинного обучения, компьютерного зрения, LLM) в металлургии, сельском хозяйстве, логистике, горнодобывающей промышленности, здравоохранении, текстиле, промышленном производстве и машиностроении.",
   "filters": {
     "industry": {
       "title": "Фильтр по отрасли:",
@@ -22,7 +22,8 @@
       "mining": "Горнодобывающая промышленность",
       "healthcare": "Здравоохранение",
       "textile": "Текстиль",
-      "manufacturing": "Промышленное производство"
+      "manufacturing": "Промышленное производство",
+      "machinery": "Машиностроение"
     },
     "ai_type": {
       "title": "Фильтр по типу ИИ:",
@@ -48,7 +49,10 @@
         "name_cn": "宝武钢铁集团"
       },
       "industry": "metallurgy",
-      "ai_types": ["machine_learning", "language_models"],
+      "ai_types": [
+        "machine_learning",
+        "language_models"
+      ],
       "business_task": "Оптимизация производственных процессов и создание первого в сталелитейной отрасли Китая вычислительного центра ИИ",
       "solution": "Создание вычислительного центра ИИ на базе бывшего завода по производству средних и толстых листов и подключение модели прогнозирования Pangu к производственной линии горячей прокатки",
       "effects": [
@@ -64,7 +68,9 @@
         "name_cn": "鞍钢集团"
       },
       "industry": "metallurgy",
-      "ai_types": ["machine_learning"],
+      "ai_types": [
+        "machine_learning"
+      ],
       "business_task": "Оптимизация процессов управления и упаковки с помощью ИИ",
       "solution": "Внедрение ИИ-инструментов DeepSeek и Raccoon для проектирования решений в рамках бережливого производства",
       "effects": [
@@ -80,7 +86,10 @@
         "name_cn": "首钢集团"
       },
       "industry": "metallurgy",
-      "ai_types": ["machine_learning", "computer_vision"],
+      "ai_types": [
+        "machine_learning",
+        "computer_vision"
+      ],
       "business_task": "Повышение уровня автоматизации и интеллектуализации производственных линий в доменном производстве",
       "solution": "Разработка собственной системы ИИ для интеллектуального доменного производства, окомкования и спекания",
       "effects": [
@@ -96,7 +105,10 @@
         "name_cn": "河钢集团"
       },
       "industry": "metallurgy",
-      "ai_types": ["machine_learning", "computer_vision"],
+      "ai_types": [
+        "machine_learning",
+        "computer_vision"
+      ],
       "business_task": "Цифровизация всего производственного процесса от получения заказа до доставки продукции",
       "solution": "Внедрение интеллектуальной операционной цифровой платформы WeShyper Data для визуализации ключевых данных производственного процесса",
       "effects": [
@@ -112,7 +124,10 @@
         "name_cn": "太钢集团"
       },
       "industry": "metallurgy",
-      "ai_types": ["machine_learning", "computer_vision"],
+      "ai_types": [
+        "machine_learning",
+        "computer_vision"
+      ],
       "business_task": "Переход от традиционного производства стали к интеллектуальному управлению",
       "solution": "Разработка и внедрение платформы «ИИ-помощник умного сталеварения» на базе системы MES",
       "effects": [
@@ -128,7 +143,10 @@
         "name_cn": "沙钢集团"
       },
       "industry": "metallurgy",
-      "ai_types": ["machine_learning", "language_models"],
+      "ai_types": [
+        "machine_learning",
+        "language_models"
+      ],
       "business_task": "Интеллектуальная трансформация предприятия с помощью ИИ",
       "solution": "Локальное развертывание модели DeepSeek и запуск пробной проверки в корпоративной интрасети",
       "effects": [
@@ -144,7 +162,10 @@
         "name_cn": "南京农业大学"
       },
       "industry": "agriculture",
-      "ai_types": ["computer_vision", "machine_learning"],
+      "ai_types": [
+        "computer_vision",
+        "machine_learning"
+      ],
       "business_task": "Умное выращивание пшеницы с использованием ИИ-технологий",
       "solution": "Разработка робота-мониторинга пшеницы и системы дистанционного зондирования условий выращивания пшеницы",
       "effects": [
@@ -160,7 +181,10 @@
         "name_cn": "茂名荔枝产业"
       },
       "industry": "agriculture",
-      "ai_types": ["machine_learning", "language_models"],
+      "ai_types": [
+        "machine_learning",
+        "language_models"
+      ],
       "business_task": "Оптимизация выращивания личи с помощью ИИ и Интернета вещей",
       "solution": "Внедрение модели DeepSeek в локальную платформу ИИ-помощника с интеграцией более пяти миллионов точек данных и установка 69 комплектов датчиков Интернета вещей с поддержкой 5G",
       "effects": [
@@ -176,7 +200,10 @@
         "name_cn": "成都智能温室"
       },
       "industry": "agriculture",
-      "ai_types": ["computer_vision", "machine_learning"],
+      "ai_types": [
+        "computer_vision",
+        "machine_learning"
+      ],
       "business_task": "Автоматизация мониторинга теплиц с помощью роботов-патрульных",
       "solution": "Разработка роботов с камерами высокой четкости для мониторинга роста сельскохозяйственных культур и интеграция с большой моделью DeepSeek",
       "effects": [
@@ -192,7 +219,10 @@
         "name_cn": "智能猪"
       },
       "industry": "agriculture",
-      "ai_types": ["computer_vision", "machine_learning"],
+      "ai_types": [
+        "computer_vision",
+        "machine_learning"
+      ],
       "business_task": "Персонализированное свиноводство с использованием ИИ",
       "solution": "Разработка системы распознавания лиц свиней для идентификации отдельных животных и анализа их состояния",
       "effects": [
@@ -208,7 +238,10 @@
         "name_cn": "腾讯元宝"
       },
       "industry": "agriculture",
-      "ai_types": ["language_models", "computer_vision"],
+      "ai_types": [
+        "language_models",
+        "computer_vision"
+      ],
       "business_task": "Внедрение ИИ в сельскую местность для поддержки фермеров",
       "solution": "Интеграция DeepSeek-R1 в продукт Tencent Yuanbao для создания «инструмента ИИ для сельского хозяйства»",
       "effects": [
@@ -224,7 +257,10 @@
         "name_cn": "中山医院"
       },
       "industry": "healthcare",
-      "ai_types": ["machine_learning", "language_models"],
+      "ai_types": [
+        "machine_learning",
+        "language_models"
+      ],
       "business_task": "Диагностика и лечение сердечно-сосудистых заболеваний с помощью ИИ",
       "solution": "Внедрение системы искусственного интеллекта CardioMind для диагностики и лечения сердечно-сосудистых заболеваний",
       "effects": [
@@ -240,7 +276,10 @@
         "name_cn": "京东物流"
       },
       "industry": "logistics",
-      "ai_types": ["computer_vision", "machine_learning"],
+      "ai_types": [
+        "computer_vision",
+        "machine_learning"
+      ],
       "business_task": "Автоматизация складских операций и оптимизация маршрутов доставки",
       "solution": "Внедрение системы компьютерного зрения для автоматизации сортировки посылок и алгоритмов машинного обучения для оптимизации маршрутов доставки",
       "effects": [
@@ -256,7 +295,10 @@
         "name_cn": "菜鸟网络"
       },
       "industry": "logistics",
-      "ai_types": ["machine_learning", "language_models"],
+      "ai_types": [
+        "machine_learning",
+        "language_models"
+      ],
       "business_task": "Прогнозирование спроса и оптимизация цепочки поставок",
       "solution": "Разработка системы прогнозирования спроса на основе машинного обучения и внедрение языковых моделей для автоматизации обслуживания клиентов",
       "effects": [
@@ -272,7 +314,10 @@
         "name_cn": "顺丰速运"
       },
       "industry": "logistics",
-      "ai_types": ["computer_vision", "machine_learning"],
+      "ai_types": [
+        "computer_vision",
+        "machine_learning"
+      ],
       "business_task": "Автоматизация доставки с помощью дронов и роботов",
       "solution": "Разработка системы компьютерного зрения для навигации дронов и роботов-доставщиков в городских условиях",
       "effects": [
@@ -288,7 +333,10 @@
         "name_cn": "中国五矿集团"
       },
       "industry": "mining",
-      "ai_types": ["computer_vision", "machine_learning"],
+      "ai_types": [
+        "computer_vision",
+        "machine_learning"
+      ],
       "business_task": "Повышение безопасности и эффективности горных работ",
       "solution": "Внедрение системы компьютерного зрения для мониторинга безопасности и алгоритмов машинного обучения для оптимизации процессов добычи",
       "effects": [
@@ -304,7 +352,10 @@
         "name_cn": "山东黄金矿业"
       },
       "industry": "mining",
-      "ai_types": ["machine_learning", "computer_vision"],
+      "ai_types": [
+        "machine_learning",
+        "computer_vision"
+      ],
       "business_task": "Интеллектуальная разведка месторождений и оптимизация процессов добычи",
       "solution": "Разработка системы машинного обучения для анализа геологических данных и прогнозирования местоположения золотых месторождений",
       "effects": [
@@ -320,7 +371,10 @@
         "name_cn": "中国中煤能源"
       },
       "industry": "mining",
-      "ai_types": ["computer_vision", "machine_learning"],
+      "ai_types": [
+        "computer_vision",
+        "machine_learning"
+      ],
       "business_task": "Автоматизация угольных шахт и повышение безопасности горных работ",
       "solution": "Внедрение системы компьютерного зрения для мониторинга безопасности и роботов для автоматизации добычи угля",
       "effects": [
@@ -336,7 +390,10 @@
         "name_cn": "紫金矿业"
       },
       "industry": "mining",
-      "ai_types": ["machine_learning", "language_models"],
+      "ai_types": [
+        "machine_learning",
+        "language_models"
+      ],
       "business_task": "Оптимизация процессов обогащения руды и экологический мониторинг",
       "solution": "Разработка системы машинного обучения для оптимизации процессов обогащения руды и языковых моделей для анализа экологических отчетов",
       "effects": [
@@ -352,7 +409,10 @@
         "name_cn": "浦项钢铁"
       },
       "industry": "metallurgy",
-      "ai_types": ["machine_learning", "computer_vision"],
+      "ai_types": [
+        "machine_learning",
+        "computer_vision"
+      ],
       "business_task": "Снижение энергозатрат и оптимизация технологических параметров при производстве стали",
       "solution": "Внедрение DL-алгоритма для анализа данных с датчиков и оптимизации параметров каждого этапа: от плавки до прокатки, позволяя ИИ автоматически корректировать условия работы",
       "effects": [
@@ -368,7 +428,9 @@
         "name_cn": "现代钢铁"
       },
       "industry": "metallurgy",
-      "ai_types": ["computer_vision"],
+      "ai_types": [
+        "computer_vision"
+      ],
       "business_task": "Выявление дефектов на поверхности продукции в режиме реального времени",
       "solution": "Камеры с ИИ-модулями анализируют прокатанные листы на наличие трещин и деформаций, классифицируя дефекты, которые раньше были замечали визуально или вручную",
       "effects": [
@@ -384,7 +446,9 @@
         "name_cn": "成元"
       },
       "industry": "metallurgy",
-      "ai_types": ["language_models"],
+      "ai_types": [
+        "language_models"
+      ],
       "business_task": "Поддержка иностранных работников при чтении технической документации и инструкций",
       "solution": "LLM-платформа переводит и разъясняет технические термины на родной язык сотрудников, помогает правильно выполнять сложные операции",
       "effects": [
@@ -400,7 +464,10 @@
         "name_cn": "泉州汇成针织有限公司"
       },
       "industry": "textile",
-      "ai_types": ["machine_learning", "computer_vision"],
+      "ai_types": [
+        "machine_learning",
+        "computer_vision"
+      ],
       "business_task": "Сократить стоимость обслуживания оборудования и улучшить качество продукции",
       "solution": "Разработка системы AI-оптимизации технического обслуживания и компьютерного зрения для автоматического обнаружения брака в точечной вышивке",
       "effects": [
@@ -416,7 +483,9 @@
         "name_cn": "泉州华实橡塑科技有限公司"
       },
       "industry": "manufacturing",
-      "ai_types": ["machine_learning"],
+      "ai_types": [
+        "machine_learning"
+      ],
       "business_task": "Улучшение качества и стабильности выпуска автомобильных пружин подвески",
       "solution": "ML-система анализирует данные об исходных материалах, параметрах в производстве и обратной связи от тестирования, оптимизирует контроль качества",
       "effects": [
@@ -432,7 +501,11 @@
         "name_cn": "福建光阳蛋业股份有限公司"
       },
       "industry": "agriculture",
-      "ai_types": ["machine_learning", "computer_vision", "language_models"],
+      "ai_types": [
+        "machine_learning",
+        "computer_vision",
+        "language_models"
+      ],
       "business_task": "Автоматическое выявление больных или мертвых кур в больших птичниках",
       "solution": "Робот «木鸡郎 6» с визуальным и звуковым анализом внутренних параметров здоровья каждой курицы",
       "effects": [
@@ -448,7 +521,9 @@
         "name_cn": "广州鲲鹏物联科技有限公司"
       },
       "industry": "logistics",
-      "ai_types": ["computer_vision"],
+      "ai_types": [
+        "computer_vision"
+      ],
       "business_task": "Ошибки подсчета коробок при складских операциях",
       "solution": "Внедрение edge-устройств с визуальным AI для точного подсчета, контроля упаковки, предотвращения ошибок",
       "effects": [
@@ -464,7 +539,11 @@
         "name_cn": "中国移动通信集团广东有限公司 广州分公司"
       },
       "industry": "agriculture",
-      "ai_types": ["machine_learning", "language_models", "computer_vision"],
+      "ai_types": [
+        "machine_learning",
+        "language_models",
+        "computer_vision"
+      ],
       "business_task": "Оптимизация всех этапов сельхозработ: от посева до сбора урожая",
       "solution": "Интегрированная AI-платформа использует датчики, зрения и большие модели для мониторинга, предупреждения, принятия оптимальных решений",
       "effects": [
@@ -480,7 +559,10 @@
         "name_cn": "Ultralytics平台用户"
       },
       "industry": "textile",
-      "ai_types": ["machine_learning", "computer_vision"],
+      "ai_types": [
+        "machine_learning",
+        "computer_vision"
+      ],
       "business_task": "Снижение дефектов ткани и потерь при производстве",
       "solution": "ML-модели для автоматического обнаружения дефектов и предиктивного ремонта оборудования",
       "effects": [
@@ -496,7 +578,9 @@
         "name_cn": "SoftWear Automation"
       },
       "industry": "textile",
-      "ai_types": ["computer_vision"],
+      "ai_types": [
+        "computer_vision"
+      ],
       "business_task": "Автоматизация ручных операций при шитье одежды",
       "solution": "Роботы с компьютерным зрением шьют базовые текстильные изделия автономно",
       "effects": [
@@ -512,7 +596,10 @@
         "name_cn": "HD现代机器人"
       },
       "industry": "manufacturing",
-      "ai_types": ["machine_learning", "computer_vision"],
+      "ai_types": [
+        "machine_learning",
+        "computer_vision"
+      ],
       "business_task": "Повысить скорость и качество сборки на автопроизводстве",
       "solution": "Производство роботов для сварки, сборки и обработки узлов с AI-контролем параметров, обнаружением ошибок",
       "effects": [
@@ -528,7 +615,9 @@
         "name_cn": "SMS集团"
       },
       "industry": "metallurgy",
-      "ai_types": ["machine_learning"],
+      "ai_types": [
+        "machine_learning"
+      ],
       "business_task": "Пролонгация срока службы сопла EAF и снижение простоев при производстве стали",
       "solution": "ML-модель обнаруживает аномалии в реальном времени, оценивает риск засоров на основе анализа 1000 сигналов",
       "effects": [
@@ -544,7 +633,9 @@
         "name_cn": "Nanoprecise (塔塔钢铁, 韦丹塔)"
       },
       "industry": "metallurgy",
-      "ai_types": ["machine_learning"],
+      "ai_types": [
+        "machine_learning"
+      ],
       "business_task": "Избежание аварий и простоев оборудования в сталелитейной цепочке",
       "solution": "Установка IoT-датчиков с ML на edge в реальном времени определяет вибрационные аномалии двигателей, ремней, насосов",
       "effects": [
@@ -560,7 +651,10 @@
         "name_cn": "迪尔公司"
       },
       "industry": "agriculture",
-      "ai_types": ["machine_learning", "computer_vision"],
+      "ai_types": [
+        "machine_learning",
+        "computer_vision"
+      ],
       "business_task": "Оптимизация посадки, полива, внесения удобрений и снижение эксплуатационных расходов",
       "solution": "Система ExactEmerge с ИИ-сенсорами и ML оптимизируют глубину и интервал посадки, Smart irrigation оптимизирует полив",
       "effects": [
@@ -576,7 +670,10 @@
         "name_cn": "FarmWise实验室"
       },
       "industry": "agriculture",
-      "ai_types": ["computer_vision", "machine_learning"],
+      "ai_types": [
+        "computer_vision",
+        "machine_learning"
+      ],
       "business_task": "Удаление сорняков без химии и автоматизация трудоёмких операций",
       "solution": "Роботы-прополщики Titan FT-35 со зрением и ML обнаруживают и убирают сорняки механически, без гербицидов",
       "effects": [
@@ -592,7 +689,10 @@
         "name_cn": "哈珀亚当斯大学+精准决策"
       },
       "industry": "agriculture",
-      "ai_types": ["machine_learning", "computer_vision"],
+      "ai_types": [
+        "machine_learning",
+        "computer_vision"
+      ],
       "business_task": "Автономное выполнение всех полевых операций и демонстрация возможностей robot-farming",
       "solution": "Поле размером 1 гектар обрабатывали роботы-тракторы без участия людей, дроны и роботы выполняли посев, обработку, мониторинг, сбор",
       "effects": [
@@ -608,7 +708,9 @@
         "name_cn": "KONUX公司(德国铁路)"
       },
       "industry": "logistics",
-      "ai_types": ["machine_learning"],
+      "ai_types": [
+        "machine_learning"
+      ],
       "business_task": "Предсказать отказ стрелочных переводов и сократить аварии и незапланированные ремонты",
       "solution": "Установка датчиков на стрелки с ML-анализом вибраций, SaaS-платформа прогнозирует, когда ждать обслуживания",
       "effects": [
@@ -617,7 +719,116 @@
         "SaaS по подписке, масштабируемая инфраструктура",
         "Расширение с 650 стрелок в 2021 до 3500 в 2023"
       ]
+    },
+    {
+      "company": {
+        "name_en": "PT Astra International Tbk",
+        "name_cn": "阿斯特拉国际公司"
+      },
+      "industry": "manufacturing",
+      "ai_types": [
+        "machine_learning",
+        "computer_vision"
+      ],
+      "business_task": "Предиктивное обслуживание станков и оборудования, автоматический контроль качества, оптимизация цепочки поставок",
+      "solution": "AI анализирует данные работы машин и предсказывает неисправности, Vision-системы проверяют качество продукции онлайн, ML-модели прогнозируют спрос",
+      "effects": [
+        "Снижение простоев оборудования",
+        "Улучшение качества продукции",
+        "Оптимизация запасов - меньше излишков и дефицита",
+        "Хорошие ROI уже в первом году внедрения"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Okuma Corporation",
+        "name_cn": "大隈株式会社"
+      },
+      "industry": "machinery",
+      "ai_types": [
+        "machine_learning"
+      ],
+      "business_task": "Поддержать массовую кастомизацию при высокой производительности, отказ от ручного контроля и сокращение времени на переналадки",
+      "solution": "Установлена система Dream Site2 (DS2) - IoT + аналитика, автоматический контроль состояния станков и параметров цикла",
+      "effects": [
+        "Повышение производительности, уменьшение времени на настройку",
+        "Возможность производить мелкие партии (более 4000 уникальных наименований) быстро",
+        "Технология масштабируется по заводам Okuma",
+        "Основа для коммерческих сервисов smart manufacturing"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Hon Hai Precision Industry Co., Ltd. (Foxconn)",
+        "name_cn": "鸿海精密工业股份有限公司"
+      },
+      "industry": "manufacturing",
+      "ai_types": [
+        "language_models"
+      ],
+      "business_task": "Поддержка решений в логистике и производстве, автоматическая генерация отчётов, подготовка данных для планирования",
+      "solution": "Разработана LLM 'FoxBrain' на базе LLaMA 3.1, обширное применение от анализа до поддержки принятия решений и документирования",
+      "effects": [
+        "Улучшение управления цепочкой поставок",
+        "Автоматизация рутинных логистических операций",
+        "Повышение скорости обработки данных и принятия решений",
+        "Проект построен с HPC 'Taipei-1'"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Techman Robot Inc.",
+        "name_cn": "达明机器人股份有限公司"
+      },
+      "industry": "machinery",
+      "ai_types": [
+        "computer_vision"
+      ],
+      "business_task": "Автоматизация инспекций и приёмки, увеличение гибкости коллаборативных роботов в обработке и логистике",
+      "solution": "ПО TM AI+ для расширенной функциональности cobots: автоматическая проверка качества и pick-and-place",
+      "effects": [
+        "Широкое внедрение в полупроводниках, сборке и логистике",
+        "Ускорение процессов, меньше дефектов",
+        "Второй по величине производитель коллаборативных роботов",
+        "Партнёрство с Omron (10% доли)"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Razor Labs + SIMEC Mining",
+        "name_cn": "Razor Labs + SIMEC矿业"
+      },
+      "industry": "mining",
+      "ai_types": [
+        "machine_learning"
+      ],
+      "business_task": "Сократить незапланированные простои горного оборудования, повысить безопасность и производительность",
+      "solution": "DataMind AI™ анализирует данные сенсоров в реальном времени, прогноз отказов, планирование ТО, визуализация для инженеров",
+      "effects": [
+        "Снижение простоев до 30%",
+        "Сокращение времени обслуживания оборудования",
+        "Повышение безопасности и эффективности",
+        "Технология показывает ROI уже в первый год"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "John Deere",
+        "name_cn": "约翰迪尔"
+      },
+      "industry": "agriculture",
+      "ai_types": [
+        "computer_vision",
+        "machine_learning"
+      ],
+      "business_task": "Автономное вождение тракторов и оптимизация сельскохозяйственных операций",
+      "solution": "Система See & Spray с компьютерным зрением для точного распыления гербицидов только на сорняки",
+      "effects": [
+        "Снижение использования гербицидов на 60-70%",
+        "Повышение урожайности на 10-15%",
+        "Сокращение затрат на химикаты",
+        "Экологически чистое земледелие"
+      ]
     }
   ]
 }
-
