@@ -1,4 +1,4 @@
-name: Auto-translate localization files
+name: Auto Translate JSON
 
 on:
   push:
@@ -7,38 +7,25 @@ on:
   workflow_dispatch:
 
 jobs:
-  auto-translate:
+  translate:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-    
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-    
-    - name: Run auto-translation
-      run: |
-        python3 enhanced_translator.py
-    
-    - name: Check if files changed
-      id: verify-changed-files
-      run: |
-        if [ -n "$(git status --porcelain)" ]; then
-          echo "changed=true" >> $GITHUB_OUTPUT
-        else
-          echo "changed=false" >> $GITHUB_OUTPUT
-        fi
-    
-    - name: Commit translated files
-      if: steps.verify-changed-files.outputs.changed == 'true'
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add en.json zh.json
-        git commit -m "🤖 Auto-translate: Update EN and ZH files from RU changes"
-        git push
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Run translation script
+        run: python enhanced_translator.py
+
+      - name: Commit and push translations
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add en.json zh.json
+          git diff --cached --quiet || git commit -m "🤖 Auto-update translations from ru.json"
+          git push
